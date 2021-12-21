@@ -7,24 +7,24 @@ export default class Header extends Component {
     render() {
         return <header className="header wrapper flex-between">
             <ul className="header__left flex">
-                <li>
-                    <Link to="/">Women</Link>
+                <li className="header__item">
+                    <Link to="/"><span className="uppercase color-text">Women</span></Link>
                 </li>
-                <li>
-                    <Link to="/men">Men</Link>
+                <li className="header__item">
+                    <Link to="/men"><span className="uppercase color-text">Men</span></Link>
                 </li>
-                <li>
-                    <Link to="/kids">Kids</Link>
+                <li className="header__item">
+                    <Link to="/kids"><span className="uppercase color-text">Kids</span></Link>
                 </li>
             </ul>
             <div className="header__center">
                 <img src={process.env.PUBLIC_URL + '/icon/icon-header.svg'} alt="icon" />
             </div>
             <div className="header__right flex">
-                <div className="header__icon-dolr">
+                <div className="header__icon header__icon-dolr">
                     <p>$</p>
                 </div>
-                <div className="header__icon-cart">
+                <div className="header__icon header__icon-cart">
                     <img src={process.env.PUBLIC_URL + '/icon/cart.svg'} alt="cart" />
                 </div>
             </div>
