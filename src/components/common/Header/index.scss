@@ -1,0 +1,17 @@
+.header {
+    padding: 28px 0 32px 0;
+    &__center {
+        width: 31.18px;
+        height: 28.62px;
+    }
+    &__icon {
+        &-dolr {
+            width: 12px;
+            height: 29px;
+        }
+        &-cart {
+            width: 20px;
+            height: 18px;
+        }
+    }
+}
