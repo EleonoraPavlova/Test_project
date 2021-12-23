@@ -36,6 +36,10 @@ button {
   cursor: pointer;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .wrapper {
   margin: 0 100px 0 102px;
 }
@@ -50,3 +54,6 @@ button {
   justify-content: space-between;
 }
 
+.color-text {
+  color:#1D1F22;
+}
