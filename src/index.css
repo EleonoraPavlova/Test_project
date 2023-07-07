@@ -12,9 +12,9 @@
 
 html,
 body {
-  font-family: 'Raleway';
   min-height: 100%;
   position: relative;
+  color:#1D1F22;
 }
 
 a {
@@ -38,6 +38,7 @@ button {
 
 .uppercase {
   text-transform: uppercase;
+  color: #1d1f22;
 }
 
 .wrapper {
@@ -54,6 +55,16 @@ button {
   justify-content: space-between;
 }
 
-.color-text {
-  color:#1D1F22;
+.text-title{
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.text-price {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
 }

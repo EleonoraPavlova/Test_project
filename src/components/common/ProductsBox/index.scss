@@ -1,0 +1,7 @@
+.products-box {
+    align-items: flex-start;
+    flex-direction: column;
+    &__wrapper-icon {
+        margin-bottom: 24px;
+    }
+}

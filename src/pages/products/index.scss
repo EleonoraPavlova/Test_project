@@ -1,0 +1,16 @@
+.products {
+    &__title {
+        padding: 48px 0 100px 0;
+        &-text {
+            font-family: "Raleway";
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 67px;
+        }
+    }
+    &__box {
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 119px;
+    }
+}
